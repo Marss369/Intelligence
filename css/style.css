@@ -112,6 +112,7 @@ header {
     height: auto;
     background-color: var(--h-bg-color);
     position: fixed;
+    z-index: 999;
     padding: 20px 0px;
 }
 
@@ -242,6 +243,10 @@ nav {
     color: var(--h-logo);
     font-size: 16px;
     font-weight: 500;
+}
+
+#toggle-menu ul li a:active {
+    color: #673ab7 !important;
 }
 
 .tgl-menu-active a {
